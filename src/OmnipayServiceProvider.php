@@ -38,7 +38,7 @@ class OmnipayServiceProvider extends ServiceProvider
     public function register()
     {
         $this->publishes([
-            __DIR__ . '/../../config/omnipay.php' => config_path('omnipay.php')
+            __DIR__ . '/../config/omnipay.php' => config_path('omnipay.php')
         ], 'config');
 
         $this->app['omnipay'] = $this->app->share(function ($app) {
