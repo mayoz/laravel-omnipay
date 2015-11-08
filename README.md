@@ -31,7 +31,7 @@ Also, add the `Omnipay` facade to the `aliases` array in your `app` configuratio
     'Omnipay' => Mayoz\Omnipay\Facades\Omnipay::class,
 ```
 
-Finally, publish the configuration files via php `artisan vendor:publish`.
+Finally, publish the configuration files via `php artisan vendor:publish`.
 
 Open the `config/omnipay.php` configuration file and set the default provider connection with `default` key. Define the connections with initialize configurations you want in `providers` key.
 
