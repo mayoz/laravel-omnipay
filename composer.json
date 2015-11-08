@@ -1,0 +1,29 @@
+{
+    "name": "mayoz/laravel-omnipay",
+    "type": "library",
+    "description": "An Omnipay bridge for Laravel 5.",
+    "keywords": [
+        "laravel",
+        "gateway",
+        "merchant",
+        "omnipay",
+        "payment"
+    ],
+    "homepage": "https://github.com/mayoz/laravel-omnipay",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sercan Çakır",
+            "email": "srcnckr@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mayoz\\Omnipay\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "5.0.*|5.1.*"
+    }
+}
